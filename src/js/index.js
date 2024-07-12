@@ -1,0 +1,1 @@
+console.log("Funcionando, não como o esperado, mas sim!")
