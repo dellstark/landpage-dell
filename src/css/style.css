@@ -18,8 +18,9 @@ header {
   width: 100%;
   color: white;
   font-weight: 600px;
+  background-color: white;
   background: linear-gradient(-45deg, #000000, #000a38, #00718d, #00cbda);
-  background-size: 100%;
+  background-size: 400% 400%;
   
   display: flex;
   flex-direction: column;
