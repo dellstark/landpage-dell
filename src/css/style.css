@@ -19,7 +19,8 @@ header {
   color: white;
   font-weight: 600px;
   background: linear-gradient(-45deg, #000000, #000a38, #00718d, #00cbda);
-  background-size: 400% 400%;
+  background-size: 200% 200%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -337,8 +338,13 @@ footer a:hover {
 }
 
 /*responsividade*/
-
 @media (max-width: 800px) {
+  body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+  }
   .header-wrapper h1,
   .header-wrapper h2 {
     display: flex;
@@ -378,10 +384,10 @@ footer a:hover {
     height: 190px;
     width: 190px;
   }
-  .card h2{
+  .card h2 {
     font-size: 20px;
   }
-  .card p{
+  .card p {
     font-size: 14px;
   }
 }
